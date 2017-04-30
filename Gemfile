@@ -9,6 +9,7 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'pg'
+gem 'rails-assets-tether', '~> 1.1', '>= 1.1.1'
 gem 'acts-as-taggable-on', '~> 4.0'
 gem 'jquery-rails'
 gem 'will_paginate', '~> 3.1.0'
