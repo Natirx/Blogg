@@ -1,0 +1,22 @@
+body {
+	background-color: $light-gray;
+}
+h1, h2, h3, h4, h5, h6, p{
+	color: $black-color;
+}
+h1, h2, h3, h4, h5, h6, .tags {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1, .card-title{
+	font-weight: bold;
+}
+
+h6{
+	color: $secondary-text-color;
+	font-weight: 300;
+}
+p, p span{
+	font-family: 'Droid Serif', serif;
+	font-size: 1.3em;
+}
+
