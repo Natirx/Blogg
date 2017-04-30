@@ -12,7 +12,7 @@ gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'acts-as-taggable-on', '~> 4.0'
 gem 'jquery-rails'
 gem 'will_paginate', '~> 3.1.0'
-gem 'devise'
+gem 'devise', '~> 4.2', '>= 4.2.1'
 gem 'annotate'
 gem 'friendly_id', '~> 5.2.1' # Note: You MUST use 5.0.0 or greater for Rails 4.0+
 gem 'rails', '~> 5.1.0.rc2'
