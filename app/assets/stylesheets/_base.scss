@@ -27,4 +27,16 @@ hr {
 	color: $primary-color;
 	border: 1px solid $primary-color ;
 	height: 0;
+	margin-bottom: 2rem;
 }
+.about_h2{
+	margin-bottom: 2rem;
+	font-weight: bold;
+}
+.about_p {
+	margin-top: 2rem;
+}
+.about_ul{
+	list-style-type: circle;
+}
+

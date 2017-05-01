@@ -27895,3 +27895,107 @@ Processing by Blog::PagesController#about as HTML
 Completed 200 OK in 166ms (Views: 158.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/about" for 127.0.0.1 at 2017-05-01 20:57:58 +0300
+Processing by Blog::PagesController#about as HTML
+  Rendering blog/pages/about.html.erb within layouts/author
+  Rendered blog/pages/about.html.erb within layouts/author (1.0ms)
+  Rendered layouts/_navbar.html.erb (2.5ms) [cache miss]
+Completed 200 OK in 182ms (Views: 172.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-05-01 20:58:25 +0300
+Processing by Blog::PagesController#about as HTML
+  Rendering blog/pages/about.html.erb within layouts/author
+  Rendered blog/pages/about.html.erb within layouts/author (0.5ms)
+  Rendered layouts/_navbar.html.erb (1.5ms) [cache miss]
+Completed 200 OK in 182ms (Views: 172.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-05-01 20:58:42 +0300
+Processing by Blog::PagesController#about as HTML
+  Rendering blog/pages/about.html.erb within layouts/author
+  Rendered blog/pages/about.html.erb within layouts/author (1.0ms)
+  Rendered layouts/_navbar.html.erb (4.0ms) [cache miss]
+Completed 200 OK in 221ms (Views: 212.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-05-01 20:59:52 +0300
+Processing by Blog::PagesController#about as HTML
+  Rendering blog/pages/about.html.erb within layouts/author
+  Rendered blog/pages/about.html.erb within layouts/author (1.0ms)
+  Rendered layouts/_navbar.html.erb (2.0ms) [cache miss]
+Completed 200 OK in 198ms (Views: 182.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-05-01 21:00:27 +0300
+Processing by Blog::PagesController#about as HTML
+  Rendering blog/pages/about.html.erb within layouts/author
+  Rendered blog/pages/about.html.erb within layouts/author (0.5ms)
+  Rendered layouts/_navbar.html.erb (2.5ms) [cache miss]
+Completed 200 OK in 188ms (Views: 175.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-05-01 21:01:01 +0300
+Processing by Blog::PagesController#about as HTML
+  Rendering blog/pages/about.html.erb within layouts/author
+  Rendered blog/pages/about.html.erb within layouts/author (0.5ms)
+  Rendered layouts/_navbar.html.erb (2.0ms) [cache miss]
+Completed 200 OK in 200ms (Views: 188.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-05-01 21:01:13 +0300
+Processing by Blog::PagesController#about as HTML
+  Rendering blog/pages/about.html.erb within layouts/author
+  Rendered blog/pages/about.html.erb within layouts/author (0.5ms)
+  Rendered layouts/_navbar.html.erb (2.0ms) [cache miss]
+Completed 200 OK in 202ms (Views: 189.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-05-01 21:01:16 +0300
+Processing by Blog::PagesController#about as HTML
+  Rendering blog/pages/about.html.erb within layouts/author
+  Rendered blog/pages/about.html.erb within layouts/author (0.5ms)
+  Rendered layouts/_navbar.html.erb (3.0ms) [cache miss]
+Completed 200 OK in 199ms (Views: 188.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-05-01 21:01:35 +0300
+Processing by Blog::PagesController#about as HTML
+  Rendering blog/pages/about.html.erb within layouts/author
+  Rendered blog/pages/about.html.erb within layouts/author (0.5ms)
+  Rendered layouts/_navbar.html.erb (2.0ms) [cache miss]
+Completed 200 OK in 195ms (Views: 184.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-05-01 21:01:47 +0300
+Processing by Blog::PagesController#about as HTML
+  Rendering blog/pages/about.html.erb within layouts/author
+  Rendered blog/pages/about.html.erb within layouts/author (1.0ms)
+  Rendered layouts/_navbar.html.erb (2.0ms) [cache miss]
+Completed 200 OK in 203ms (Views: 192.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-05-01 21:02:37 +0300
+Processing by Blog::PagesController#about as HTML
+  Rendering blog/pages/about.html.erb within layouts/author
+  Rendered blog/pages/about.html.erb within layouts/author (0.5ms)
+  Rendered layouts/_navbar.html.erb (2.0ms) [cache miss]
+Completed 200 OK in 211ms (Views: 202.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-05-01 21:02:45 +0300
+Processing by Blog::PagesController#about as HTML
+  Rendering blog/pages/about.html.erb within layouts/author
+  Rendered blog/pages/about.html.erb within layouts/author (1.0ms)
+  Rendered layouts/_navbar.html.erb (3.0ms) [cache miss]
+Completed 200 OK in 247ms (Views: 234.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-05-01 21:02:55 +0300
+Processing by Blog::PagesController#about as HTML
+  Rendering blog/pages/about.html.erb within layouts/author
+  Rendered blog/pages/about.html.erb within layouts/author (1.0ms)
+  Rendered layouts/_navbar.html.erb (2.0ms) [cache miss]
+Completed 200 OK in 196ms (Views: 186.6ms | ActiveRecord: 0.0ms)
+
+
