@@ -10,7 +10,7 @@ end
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'pg'
 gem 'rails-assets-tether', '~> 1.1', '>= 1.1.1'
-gem 'acts-as-taggable-on', '~> 4.0'
+gem 'acts-as-taggable-on', github: 'mbleigh/acts-as-taggable-on'
 gem 'jquery-rails'
 gem 'will_paginate', '~> 3.1.0'
 gem 'devise', '~> 4.2', '>= 4.2.1'

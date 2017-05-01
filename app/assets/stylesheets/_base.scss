@@ -19,4 +19,12 @@ p, p span{
 	font-family: 'Droid Serif', serif;
 	font-size: 1.3em;
 }
+.page-title {
+	font-size: 4em;
+}
+hr {
 
+	color: $primary-color;
+	border: 1px solid $primary-color ;
+	height: 0;
+}
