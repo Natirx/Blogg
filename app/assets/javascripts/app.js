@@ -53,7 +53,7 @@ for(var i = 0; i<getVal.length; i++){
 			inputNumb.innerHTML += buttonVal;
 		}
 		
-		// prevent page jumps
+		
 	
 	} 
 }
