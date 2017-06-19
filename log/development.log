@@ -28596,3 +28596,347 @@ Processing by Blog::PagesController#about as HTML
 Completed 200 OK in 241ms (Views: 227.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/about" for 127.0.0.1 at 2017-05-01 22:03:40 +0300
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Blog::PagesController#about as HTML
+  Rendering blog/pages/about.html.erb within layouts/author
+  Rendered blog/pages/about.html.erb within layouts/author (2.0ms)
+  Rendered layouts/_navbar.html.erb (7.0ms) [cache miss]
+Completed 200 OK in 21308ms (Views: 21290.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-05-01 22:05:23 +0300
+Processing by Blog::PagesController#about as HTML
+  Rendering blog/pages/about.html.erb within layouts/author
+  Rendered blog/pages/about.html.erb within layouts/author (0.0ms)
+  Rendered layouts/_navbar.html.erb (3.0ms) [cache miss]
+Completed 200 OK in 6772ms (Views: 6760.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-05-01 22:05:58 +0300
+Processing by Blog::PagesController#about as HTML
+  Rendering blog/pages/about.html.erb within layouts/author
+  Rendered blog/pages/about.html.erb within layouts/author (1.0ms)
+  Rendered layouts/_navbar.html.erb (2.0ms) [cache miss]
+Completed 200 OK in 6915ms (Views: 6904.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-05-01 22:06:21 +0300
+Processing by Blog::PagesController#about as HTML
+  Rendering blog/pages/about.html.erb within layouts/author
+  Rendered blog/pages/about.html.erb within layouts/author (1.0ms)
+  Rendered layouts/_navbar.html.erb (2.0ms) [cache miss]
+Completed 200 OK in 6579ms (Views: 6565.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-03 20:25:44 +0300
+Started GET "/" for 127.0.0.1 at 2017-05-03 20:25:46 +0300
+  [1m[35m (75.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (77.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Blog::PostsController#index as HTML
+Processing by Blog::PostsController#index as HTML
+  Rendering blog/posts/index.html.erb within layouts/author
+  Rendering blog/posts/index.html.erb within layouts/author
+  [1m[36mPost Load (243.8ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."published" = $1 ORDER BY "posts"."published_at" DESC LIMIT $2 OFFSET $3[0m  [["published", "t"], ["LIMIT", 6], ["OFFSET", 0]]
+  [1m[36mPost Load (741.8ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."published" = $1 ORDER BY "posts"."published_at" DESC LIMIT $2 OFFSET $3[0m  [["published", "t"], ["LIMIT", 6], ["OFFSET", 0]]
+  [1m[36mActsAsTaggableOn::Tag Load (194.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = $1 AND "taggings"."taggable_type" = $2 AND "taggings"."context" = $3[0m  [["taggable_id", 4], ["taggable_type", "Post"], ["context", "tags"]]
+  [1m[36mActsAsTaggableOn::Tag Load (195.4ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = $1 AND "taggings"."taggable_type" = $2 AND "taggings"."context" = $3[0m  [["taggable_id", 4], ["taggable_type", "Post"], ["context", "tags"]]
+  [1m[36mActsAsTaggableOn::Tag Load (4.0ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = $1 AND "taggings"."taggable_type" = $2 AND "taggings"."context" = $3[0m  [["taggable_id", 3], ["taggable_type", "Post"], ["context", "tags"]]
+  [1m[36mActsAsTaggableOn::Tag Load (1.0ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = $1 AND "taggings"."taggable_type" = $2 AND "taggings"."context" = $3[0m  [["taggable_id", 3], ["taggable_type", "Post"], ["context", "tags"]]
+  [1m[36mActsAsTaggableOn::Tag Load (6.5ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = $1 AND "taggings"."taggable_type" = $2 AND "taggings"."context" = $3[0m  [["taggable_id", 1], ["taggable_type", "Post"], ["context", "tags"]]
+  [1m[36mActsAsTaggableOn::Tag Load (3.9ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = $1 AND "taggings"."taggable_type" = $2 AND "taggings"."context" = $3[0m  [["taggable_id", 1], ["taggable_type", "Post"], ["context", "tags"]]
+  Rendered collection of blog/posts/_post.html.erb [3 times] (549.7ms)
+  Rendered collection of blog/posts/_post.html.erb [3 times] (509.6ms)
+  Rendered blog/posts/index.html.erb within layouts/author (1462.4ms)
+  Rendered blog/posts/index.html.erb within layouts/author (1464.4ms)
+Completed 500 Internal Server Error in 4883ms (ActiveRecord: 1173.1ms)
+
+
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+     5:   <%= csrf_meta_tags %>
+     6: 
+     7:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:   <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
+    10: 
+    11: </head>
+  
+app/views/layouts/author.html.erb:8:in `_app_views_layouts_author_html_erb___542947785_47352660'
+  Rendered layouts/_navbar.html.erb (7.5ms) [cache miss]
+Completed 200 OK in 5029ms (Views: 3732.7ms | ActiveRecord: 655.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-03 20:26:33 +0300
+Processing by Blog::PostsController#index as HTML
+Started GET "/about" for 127.0.0.1 at 2017-05-03 20:26:33 +0300
+  Rendering blog/posts/index.html.erb within layouts/author
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."published" = $1 ORDER BY "posts"."published_at" DESC LIMIT $2 OFFSET $3[0m  [["published", "t"], ["LIMIT", 6], ["OFFSET", 0]]
+  [1m[36mActsAsTaggableOn::Tag Load (0.5ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = $1 AND "taggings"."taggable_type" = $2 AND "taggings"."context" = $3[0m  [["taggable_id", 4], ["taggable_type", "Post"], ["context", "tags"]]
+  [1m[36mActsAsTaggableOn::Tag Load (1.0ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = $1 AND "taggings"."taggable_type" = $2 AND "taggings"."context" = $3[0m  [["taggable_id", 3], ["taggable_type", "Post"], ["context", "tags"]]
+  [1m[36mActsAsTaggableOn::Tag Load (425.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = $1 AND "taggings"."taggable_type" = $2 AND "taggings"."context" = $3[0m  [["taggable_id", 1], ["taggable_type", "Post"], ["context", "tags"]]
+  Rendered collection of blog/posts/_post.html.erb [3 times] (442.0ms)
+  Rendered blog/posts/index.html.erb within layouts/author (456.1ms)
+  Rendered layouts/_navbar.html.erb (3.5ms) [cache miss]
+Completed 200 OK in 1635ms (Views: 1136.8ms | ActiveRecord: 427.3ms)
+
+
+Processing by Blog::PagesController#about as HTML
+  Rendering blog/pages/about.html.erb within layouts/author
+  Rendered blog/pages/about.html.erb within layouts/author (1.5ms)
+  Rendered layouts/_navbar.html.erb (1.5ms) [cache miss]
+Completed 200 OK in 226ms (Views: 211.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-05-03 20:36:53 +0300
+Processing by Blog::PagesController#about as HTML
+  Rendering blog/pages/about.html.erb within layouts/author
+  Rendered blog/pages/about.html.erb within layouts/author (1.0ms)
+  Rendered layouts/_navbar.html.erb (2.0ms) [cache miss]
+Completed 200 OK in 223ms (Views: 209.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-19 14:01:17 +0300
+  [1m[35m (74.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Blog::PostsController#index as HTML
+  Rendering blog/posts/index.html.erb within layouts/author
+  [1m[36mPost Load (53.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."published" = $1 ORDER BY "posts"."published_at" DESC LIMIT $2 OFFSET $3[0m  [["published", "t"], ["LIMIT", 6], ["OFFSET", 0]]
+  [1m[36mActsAsTaggableOn::Tag Load (95.4ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = $1 AND "taggings"."taggable_type" = $2 AND "taggings"."context" = $3[0m  [["taggable_id", 4], ["taggable_type", "Post"], ["context", "tags"]]
+  [1m[36mActsAsTaggableOn::Tag Load (1.5ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = $1 AND "taggings"."taggable_type" = $2 AND "taggings"."context" = $3[0m  [["taggable_id", 3], ["taggable_type", "Post"], ["context", "tags"]]
+  [1m[36mActsAsTaggableOn::Tag Load (1.5ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = $1 AND "taggings"."taggable_type" = $2 AND "taggings"."context" = $3[0m  [["taggable_id", 1], ["taggable_type", "Post"], ["context", "tags"]]
+  Rendered collection of blog/posts/_post.html.erb [3 times] (393.0ms)
+  Rendered blog/posts/index.html.erb within layouts/author (511.4ms)
+  Rendered layouts/_navbar.html.erb (10.0ms) [cache miss]
+Completed 200 OK in 19551ms (Views: 18998.8ms | ActiveRecord: 232.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-19 14:01:53 +0300
+Processing by Blog::PostsController#index as HTML
+  Rendering blog/posts/index.html.erb within layouts/author
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."published" = $1 ORDER BY "posts"."published_at" DESC LIMIT $2 OFFSET $3[0m  [["published", "t"], ["LIMIT", 6], ["OFFSET", 0]]
+  [1m[36mActsAsTaggableOn::Tag Load (1.0ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = $1 AND "taggings"."taggable_type" = $2 AND "taggings"."context" = $3[0m  [["taggable_id", 4], ["taggable_type", "Post"], ["context", "tags"]]
+  [1m[36mActsAsTaggableOn::Tag Load (1.0ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = $1 AND "taggings"."taggable_type" = $2 AND "taggings"."context" = $3[0m  [["taggable_id", 3], ["taggable_type", "Post"], ["context", "tags"]]
+  [1m[36mActsAsTaggableOn::Tag Load (1.0ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = $1 AND "taggings"."taggable_type" = $2 AND "taggings"."context" = $3[0m  [["taggable_id", 1], ["taggable_type", "Post"], ["context", "tags"]]
+  Rendered collection of blog/posts/_post.html.erb [3 times] (15.3ms)
+  Rendered blog/posts/index.html.erb within layouts/author (27.8ms)
+  Rendered layouts/_navbar.html.erb (2.0ms) [cache miss]
+Completed 200 OK in 219ms (Views: 205.5ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-19 14:01:55 +0300
+Processing by Blog::PostsController#index as HTML
+  Rendering blog/posts/index.html.erb within layouts/author
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."published" = $1 ORDER BY "posts"."published_at" DESC LIMIT $2 OFFSET $3[0m  [["published", "t"], ["LIMIT", 6], ["OFFSET", 0]]
+  [1m[36mActsAsTaggableOn::Tag Load (0.5ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = $1 AND "taggings"."taggable_type" = $2 AND "taggings"."context" = $3[0m  [["taggable_id", 4], ["taggable_type", "Post"], ["context", "tags"]]
+  [1m[36mActsAsTaggableOn::Tag Load (1.0ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = $1 AND "taggings"."taggable_type" = $2 AND "taggings"."context" = $3[0m  [["taggable_id", 3], ["taggable_type", "Post"], ["context", "tags"]]
+  [1m[36mActsAsTaggableOn::Tag Load (1.5ms)[0m  [1m[34mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = $1 AND "taggings"."taggable_type" = $2 AND "taggings"."context" = $3[0m  [["taggable_id", 1], ["taggable_type", "Post"], ["context", "tags"]]
+  Rendered collection of blog/posts/_post.html.erb [3 times] (19.5ms)
+  Rendered blog/posts/index.html.erb within layouts/author (33.5ms)
+  Rendered layouts/_navbar.html.erb (2.5ms) [cache miss]
+Completed 200 OK in 312ms (Views: 298.4ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2017-06-19 14:01:57 +0300
+Processing by Blog::PagesController#contact as HTML
+  Rendering blog/pages/contact.html.erb within layouts/author
+  Rendered blog/pages/contact.html.erb within layouts/author (1.0ms)
+  Rendered layouts/_navbar.html.erb (2.0ms) [cache miss]
+Completed 200 OK in 209ms (Views: 197.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2017-06-19 14:02:46 +0300
+Processing by Blog::PagesController#contact as HTML
+  Rendering blog/pages/contact.html.erb within layouts/author
+  Rendered blog/pages/contact.html.erb within layouts/author (1.0ms)
+  Rendered layouts/_navbar.html.erb (1.5ms) [cache miss]
+Completed 200 OK in 208ms (Views: 199.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app.js" for 127.0.0.1 at 2017-06-19 14:02:46 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/app.js"):
+  
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0.rc2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0.rc2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0.rc2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0.rc2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0.rc2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.0.rc2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/contact" for 127.0.0.1 at 2017-06-19 14:04:06 +0300
+Processing by Blog::PagesController#contact as HTML
+  Rendering blog/pages/contact.html.erb within layouts/author
+  Rendered blog/pages/contact.html.erb within layouts/author (0.5ms)
+  Rendered layouts/_navbar.html.erb (2.5ms) [cache miss]
+Completed 200 OK in 23969ms (Views: 23958.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2017-06-19 14:04:30 +0300
+Processing by Blog::PagesController#contact as HTML
+  Rendering blog/pages/contact.html.erb within layouts/author
+  Rendered blog/pages/contact.html.erb within layouts/author (0.5ms)
+  Rendered layouts/_navbar.html.erb (2.0ms) [cache miss]
+Completed 200 OK in 223ms (Views: 211.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2017-06-19 14:04:49 +0300
+Processing by Blog::PagesController#contact as HTML
+  Rendering blog/pages/contact.html.erb within layouts/author
+  Rendered blog/pages/contact.html.erb within layouts/author (1.0ms)
+  Rendered layouts/_navbar.html.erb (2.0ms) [cache miss]
+Completed 200 OK in 320ms (Views: 312.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2017-06-19 14:07:42 +0300
+Processing by Blog::PagesController#contact as HTML
+  Rendering blog/pages/contact.html.erb within layouts/author
+  Rendered blog/pages/contact.html.erb within layouts/author (1.0ms)
+  Rendered layouts/_navbar.html.erb (2.0ms) [cache miss]
+Completed 200 OK in 609ms (Views: 599.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/app.js" for 127.0.0.1 at 2017-06-19 14:07:42 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/javascripts/app.js"):
+  
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0.rc2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0.rc2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0.rc2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0.rc2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0.rc2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.0.rc2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/contact" for 127.0.0.1 at 2017-06-19 14:09:47 +0300
+Processing by Blog::PagesController#contact as HTML
+  Rendering blog/pages/contact.html.erb within layouts/author
+  Rendered blog/pages/contact.html.erb within layouts/author (0.5ms)
+  Rendered layouts/_navbar.html.erb (2.0ms) [cache miss]
+Completed 200 OK in 308ms (Views: 298.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/assets/javascripts/app.js" for 127.0.0.1 at 2017-06-19 14:09:48 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/app.js"):
+  
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0.rc2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0.rc2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0.rc2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0.rc2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0.rc2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.0.rc2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/contact" for 127.0.0.1 at 2017-06-19 14:11:49 +0300
+Processing by Blog::PagesController#contact as HTML
+  Rendering blog/pages/contact.html.erb within layouts/author
+  Rendered blog/pages/contact.html.erb within layouts/author (0.5ms)
+  Rendered layouts/_navbar.html.erb (2.5ms) [cache miss]
+Completed 200 OK in 326ms (Views: 317.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/app/assets/javascripts/app.js" for 127.0.0.1 at 2017-06-19 14:11:50 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/javascripts/app.js"):
+  
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0.rc2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0.rc2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0.rc2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0.rc2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0.rc2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0.rc2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0.rc2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0.rc2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.0.rc2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/contact" for 127.0.0.1 at 2017-06-19 14:12:03 +0300
+Processing by Blog::PagesController#contact as HTML
+  Rendering blog/pages/contact.html.erb within layouts/author
+  Rendered blog/pages/contact.html.erb within layouts/author (0.5ms)
+  Rendered layouts/_navbar.html.erb (1.5ms) [cache miss]
+Completed 200 OK in 189ms (Views: 178.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2017-06-19 14:12:07 +0300
+Processing by Blog::PagesController#contact as HTML
+  Rendering blog/pages/contact.html.erb within layouts/author
+  Rendered blog/pages/contact.html.erb within layouts/author (1.0ms)
+  Rendered layouts/_navbar.html.erb (2.0ms) [cache miss]
+Completed 200 OK in 190ms (Views: 179.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2017-06-19 14:14:09 +0300
+Processing by Blog::PagesController#contact as HTML
+  Rendering blog/pages/contact.html.erb within layouts/author
+  Rendered blog/pages/contact.html.erb within layouts/author (0.5ms)
+  Rendered layouts/_navbar.html.erb (2.0ms) [cache miss]
+Completed 200 OK in 348ms (Views: 333.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2017-06-19 14:14:33 +0300
+Processing by Blog::PagesController#contact as HTML
+  Rendering blog/pages/contact.html.erb within layouts/author
+  Rendered blog/pages/contact.html.erb within layouts/author (0.5ms)
+  Rendered layouts/_navbar.html.erb (2.0ms) [cache miss]
+Completed 200 OK in 239ms (Views: 228.0ms | ActiveRecord: 0.0ms)
+
+

@@ -18,6 +18,7 @@
 //= require bootstrap-sprockets
 //= require turbolinks
 //= require_tree .
+//= require_app
 
 document.addEventListener("turbolinks:load", function() {
   tinymce.remove();

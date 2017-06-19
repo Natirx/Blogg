@@ -101,17 +101,16 @@
 @media screen and (min-width: 34em) {
   .posts.index .card {
     height: 440px;
+    }
+
   }
-}
+
 
 /* Medium. Above 48em (768px) */
 @media screen and (min-width: 48em) {
   .posts.index .card {
     height: 420px;
   }
-}
-.about_h2 {
-  text-align: center;
 }
 
 /* Extra large. Above 75em (1200px) */
